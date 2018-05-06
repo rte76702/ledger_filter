@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ledger_filter *.css
+recursive-include ledger_filter *.csv
+recursive-include ledger_filter *.html
+recursive-include ledger_filter *.ico
+recursive-include ledger_filter *.js
+recursive-include ledger_filter *.json
+recursive-include ledger_filter *.md
+recursive-include ledger_filter *.png
+recursive-include ledger_filter *.py
+recursive-include ledger_filter *.svg
+recursive-include ledger_filter *.txt
+recursive-exclude ledger_filter *.pyc
